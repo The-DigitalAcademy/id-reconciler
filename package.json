@@ -1,0 +1,31 @@
+{
+  "name": "id-reconciler",
+  "version": "1.0.0",
+  "description": "Reconciles the DevCMS ids to the MicroApps on Strapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "ts-node-dev index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-DigitalAcademy/id-reconciler.git"
+  },
+  "keywords": [
+    "Strapi"
+  ],
+  "author": "Delali Funani",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/The-DigitalAcademy/id-reconciler/issues"
+  },
+  "homepage": "https://github.com/The-DigitalAcademy/id-reconciler#readme",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
